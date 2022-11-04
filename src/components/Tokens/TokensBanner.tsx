@@ -1,7 +1,6 @@
 import { Trans } from '@lingui/macro'
+import { BrowserEvent, ElementName, EventName, TraceEvent } from '@uniswap/analytics'
 import { useWeb3React } from '@web3-react/core'
-import { ElementName, Event, EventName } from 'analytics/constants'
-import { TraceEvent } from 'analytics/TraceEvent'
 import { chainIdToBackendName } from 'graphql/data/util'
 import { X } from 'react-feather'
 import { Link } from 'react-router-dom'
@@ -72,7 +71,11 @@ export default function TokensBanner() {
 
   return (
     <BackgroundColor show={showTokensPromoBanner} to={`/tokens/${chainName}`}>
-      <TraceEvent events={[Event.onClick]} name={EventName.EXPLORE_BANNER_CLICKED} element={ElementName.EXPLORE_BANNER}>
+      <TraceEvent
+        events={[BrowserEvent.onClick]}
+        name={EventName.EXPLORE_BANNER_CLICKED}
+        element={ElementName.EXPLORE_BANNER}
+      >
         <PopupContainer>
           <Header>
             <HeaderText>

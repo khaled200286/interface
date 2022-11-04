@@ -1,5 +1,4 @@
-import { PageName } from 'analytics/constants'
-import { Trace } from 'analytics/Trace'
+import { PageName, Trace } from '@uniswap/analytics'
 import { NftGraphQlVariant, useNftGraphQlFlag } from 'featureFlags/flags/nftGraphQl'
 import { useDetailsQuery } from 'graphql/data/nft/Details'
 import { AssetDetails } from 'nft/components/details/AssetDetails'

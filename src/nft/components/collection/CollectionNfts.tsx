@@ -1,6 +1,5 @@
+import { BrowserEvent, ElementName, EventName, TraceEvent } from '@uniswap/analytics'
 import { useWeb3React } from '@web3-react/core'
-import { ElementName, Event, EventName } from 'analytics/constants'
-import { TraceEvent } from 'analytics/TraceEvent'
 import clsx from 'clsx'
 import { loadingAnimation } from 'components/Loader/styled'
 import { parseEther } from 'ethers/lib/utils'
@@ -429,7 +428,7 @@ export const CollectionNfts = ({ contractAddress, collectionStats, rarityVerifie
           <ActionsContainer>
             <Row gap="12">
               <TraceEvent
-                events={[Event.onClick]}
+                events={[BrowserEvent.onClick]}
                 element={ElementName.NFT_FILTER_BUTTON}
                 name={EventName.NFT_FILTER_OPENED}
                 shouldLogImpression={!isFiltersExpanded}

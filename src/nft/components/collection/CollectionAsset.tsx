@@ -1,7 +1,5 @@
 import { BigNumber } from '@ethersproject/bignumber'
-import { sendAnalyticsEvent } from 'analytics'
-import { EventName, PageName } from 'analytics/constants'
-import { useTrace } from 'analytics/Trace'
+import { EventName, PageName, sendAnalyticsEvent, useTrace } from '@uniswap/analytics'
 import { useBag } from 'nft/hooks'
 import { GenieAsset, Markets, UniformHeight } from 'nft/types'
 import { formatWeiToDecimal, isAudio, isVideo, rarityProviderLogo } from 'nft/utils'

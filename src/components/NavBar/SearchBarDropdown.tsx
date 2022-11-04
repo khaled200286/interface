@@ -1,6 +1,5 @@
 import { Trans } from '@lingui/macro'
-import { NavBarSearchTypes, SectionName } from 'analytics/constants'
-import { useTrace } from 'analytics/Trace'
+import { NavBarSearchTypes, SectionName, useTrace } from '@uniswap/analytics'
 import { NftVariant, useNftFlag } from 'featureFlags/flags/nft'
 import { Box } from 'nft/components/Box'
 import { Column, Row } from 'nft/components/Flex'

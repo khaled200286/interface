@@ -1,6 +1,5 @@
+import { PageName, Trace } from '@uniswap/analytics'
 import { Currency, Token } from '@uniswap/sdk-core'
-import { PageName } from 'analytics/constants'
-import { Trace } from 'analytics/Trace'
 import { AboutSection } from 'components/Tokens/TokenDetails/About'
 import AddressSection from 'components/Tokens/TokenDetails/AddressSection'
 import BalanceSummary from 'components/Tokens/TokenDetails/BalanceSummary'

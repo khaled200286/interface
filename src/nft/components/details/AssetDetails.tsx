@@ -1,7 +1,5 @@
+import { EventName, PageName, sendAnalyticsEvent, useTrace } from '@uniswap/analytics'
 import { useWeb3React } from '@web3-react/core'
-import { sendAnalyticsEvent } from 'analytics'
-import { EventName, PageName } from 'analytics/constants'
-import { useTrace } from 'analytics/Trace'
 import clsx from 'clsx'
 import { MouseoverTooltip } from 'components/Tooltip/index'
 import useENSName from 'hooks/useENSName'

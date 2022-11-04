@@ -1,7 +1,5 @@
+import { EventName, PageName, sendAnalyticsEvent, useTrace } from '@uniswap/analytics'
 import { useWeb3React } from '@web3-react/core'
-import { sendAnalyticsEvent } from 'analytics'
-import { EventName, PageName } from 'analytics/constants'
-import { useTrace } from 'analytics/Trace'
 import { CancelListingIcon, MinusIcon, PlusIcon } from 'nft/components/icons'
 import { useBag } from 'nft/hooks'
 import { CollectionInfoForAsset, Deprecated_SellOrder, GenieAsset, SellOrder, TokenType } from 'nft/types'

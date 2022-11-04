@@ -1,7 +1,6 @@
 import { Trans } from '@lingui/macro'
+import { BrowserEvent, ElementName, EventName, TraceEvent } from '@uniswap/analytics'
 import { useWeb3React } from '@web3-react/core'
-import { ElementName, Event, EventName } from 'analytics/constants'
-import { TraceEvent } from 'analytics/TraceEvent'
 import WalletDropdown from 'components/WalletDropdown'
 import { getConnection } from 'connection/utils'
 import { Portal } from 'nft/components/common/Portal'
@@ -240,7 +239,7 @@ function Web3StatusInner() {
     }
     return (
       <TraceEvent
-        events={[Event.onClick]}
+        events={[BrowserEvent.onClick]}
         name={EventName.CONNECT_WALLET_BUTTON_CLICKED}
         properties={{ received_swap_quote: validSwapQuote }}
         element={ElementName.CONNECT_WALLET_BUTTON}

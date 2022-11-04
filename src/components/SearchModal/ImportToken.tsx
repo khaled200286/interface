@@ -1,8 +1,7 @@
 import { Plural, Trans } from '@lingui/macro'
+import { BrowserEvent, ElementName, EventName, TraceEvent } from '@uniswap/analytics'
 import { Currency, Token } from '@uniswap/sdk-core'
 import { TokenList } from '@uniswap/token-lists'
-import { ElementName, Event, EventName } from 'analytics/constants'
-import { TraceEvent } from 'analytics/TraceEvent'
 import { ButtonPrimary } from 'components/Button'
 import { AutoColumn } from 'components/Column'
 import { RowBetween } from 'components/Row'
@@ -76,7 +75,7 @@ export function ImportToken(props: ImportProps) {
           <TokenImportCard token={token} list={list} key={'import' + token.address} />
         ))}
         <TraceEvent
-          events={[Event.onClick]}
+          events={[BrowserEvent.onClick]}
           name={EventName.TOKEN_IMPORTED}
           properties={formatAnalyticsEventProperties(tokens)}
           element={ElementName.IMPORT_TOKEN_BUTTON}

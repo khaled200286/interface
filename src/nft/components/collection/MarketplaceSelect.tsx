@@ -1,5 +1,4 @@
-import { sendAnalyticsEvent } from 'analytics'
-import { EventName, FilterTypes } from 'analytics/constants'
+import { EventName, FilterTypes, sendAnalyticsEvent } from '@uniswap/analytics'
 import clsx from 'clsx'
 import { NftGraphQlVariant, useNftGraphQlFlag } from 'featureFlags/flags/nftGraphQl'
 import { Box } from 'nft/components/Box'

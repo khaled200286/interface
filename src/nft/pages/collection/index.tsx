@@ -1,6 +1,5 @@
+import { PageName, Trace } from '@uniswap/analytics'
 import { useWeb3React } from '@web3-react/core'
-import { PageName } from 'analytics/constants'
-import { Trace } from 'analytics/Trace'
 import { NftGraphQlVariant, useNftGraphQlFlag } from 'featureFlags/flags/nftGraphQl'
 import { useCollectionQuery } from 'graphql/data/nft/Collection'
 import { MobileHoverBag } from 'nft/components/bag/MobileHoverBag'
