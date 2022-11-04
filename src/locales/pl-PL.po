@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: uniswap-interface\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2022-10-27 02:48\n"
+"PO-Revision-Date: 2022-11-04 07:04\n"
 "Last-Translator: \n"
 "Language: pl_PL\n"
 "Language-Team: Polish\n"
@@ -561,6 +561,10 @@ msgstr "Połącz się z portfelem, aby zobaczyć płynność V2."
 msgid "Connect to a wallet to view your liquidity."
 msgstr "Połącz się z portfelem, aby zobaczyć płynność."
 
+#: src/nft/components/bag/BagFooter.tsx
+msgid "Connect wallet"
+msgstr "Połącz portfel"
+
 #: src/components/AccountDetails/index.tsx
 msgid "Connected with"
 msgstr "Połączony z"
@@ -933,6 +937,11 @@ msgstr "Centrum pomocy"
 #: src/components/Tokens/TokenDetails/About.tsx
 msgid "Hide"
 msgstr "Ukryć"
+
+#: src/components/PositionList/index.tsx
+#: src/components/PositionList/index.tsx
+msgid "Hide closed positions"
+msgstr "Ukryj zamknięte pozycje"
 
 #: src/pages/Swap/index.tsx
 msgid "High Price Impact"
@@ -1327,6 +1336,11 @@ msgstr "Właściciel"
 msgid "Participating pools"
 msgstr "Uczestniczące grupy"
 
+#: src/nft/components/bag/BagFooter.tsx
+#: src/nft/components/bag/BagFooter.tsx
+msgid "Pay"
+msgstr "Płacić"
+
 #: src/components/WalletDropdown/DefaultMenu.tsx
 #: src/pages/Vote/styled.tsx
 msgid "Pending"
@@ -1425,6 +1439,10 @@ msgstr "Cena"
 #: src/pages/AddLiquidityV2/index.tsx
 msgid "Prices and pool share"
 msgstr "Ceny i udział w pule"
+
+#: src/nft/components/bag/BagFooter.tsx
+msgid "Proceed in wallet"
+msgstr "Kontynuuj w portfelu"
 
 #: src/pages/CreateProposal/ProposalEditor.tsx
 msgid "Proposal"
@@ -1665,6 +1683,7 @@ msgid "Some assets are not available through this interface because they may not
 msgstr "Niektóre aktywa nie są dostępne za pośrednictwem tego interfejsu, ponieważ mogą nie działać prawidłowo z inteligentnymi kontraktami lub nie możemy pozwolić na handel ze względów prawnych."
 
 #: src/components/ErrorBoundary/index.tsx
+#: src/nft/components/bag/BagFooter.tsx
 msgid "Something went wrong"
 msgstr "Coś poszło nie tak"
 
@@ -1751,6 +1770,10 @@ msgstr "Zamiana"
 #: src/components/swap/ConfirmSwapModal.tsx
 msgid "Swapping {0} {1} for {2} {3}"
 msgstr "Zamiana {0} {1} na {2} {3}"
+
+#: src/nft/components/bag/BagFooter.tsx
+msgid "Switch networks"
+msgstr "Przełącz sieci"
 
 #: src/components/Tokens/TokenDetails/ChartSection.tsx
 msgid "Symbol not found"
@@ -1989,6 +2012,10 @@ msgstr "Transakcja zakończona w"
 #: src/components/TransactionSettings/index.tsx
 msgid "Transaction deadline"
 msgstr "Termin transakcji"
+
+#: src/nft/components/bag/BagFooter.tsx
+msgid "Transaction pending"
+msgstr "Transakcja w toku"
 
 #: src/lib/hooks/swap/useSendSwapTransaction.tsx
 #: src/lib/hooks/swap/useSendSwapTransaction.tsx
@@ -2329,6 +2356,10 @@ msgstr "Owinięty"
 #: src/components/AccountDetailsV2/TransactionBody.tsx
 msgid "Wrapping"
 msgstr "Zawijanie"
+
+#: src/nft/components/bag/BagFooter.tsx
+msgid "Wrong network"
+msgstr "Niewłaściwa sieć"
 
 #: src/pages/CreateProposal/index.tsx
 msgid "You already have an active or pending proposal"

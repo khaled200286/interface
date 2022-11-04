@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: uniswap-interface\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2022-10-27 02:48\n"
+"PO-Revision-Date: 2022-11-04 07:04\n"
 "Last-Translator: \n"
 "Language: th_TH\n"
 "Language-Team: Thai\n"
@@ -561,6 +561,10 @@ msgstr "เชื่อมต่อกับกระเป๋าเงินเ
 msgid "Connect to a wallet to view your liquidity."
 msgstr "เชื่อมต่อกับกระเป๋าเงินเพื่อดูสภาพคล่องของคุณ"
 
+#: src/nft/components/bag/BagFooter.tsx
+msgid "Connect wallet"
+msgstr "เชื่อมต่อกระเป๋าสตางค์"
+
 #: src/components/AccountDetails/index.tsx
 msgid "Connected with"
 msgstr "เชื่อมต่อกับ"
@@ -933,6 +937,11 @@ msgstr "ศูนย์ช่วยเหลือ"
 #: src/components/Tokens/TokenDetails/About.tsx
 msgid "Hide"
 msgstr "ซ่อน"
+
+#: src/components/PositionList/index.tsx
+#: src/components/PositionList/index.tsx
+msgid "Hide closed positions"
+msgstr "ซ่อนตำแหน่งที่ปิด"
 
 #: src/pages/Swap/index.tsx
 msgid "High Price Impact"
@@ -1327,6 +1336,11 @@ msgstr "เจ้าของ"
 msgid "Participating pools"
 msgstr "สระว่ายน้ำที่เข้าร่วม"
 
+#: src/nft/components/bag/BagFooter.tsx
+#: src/nft/components/bag/BagFooter.tsx
+msgid "Pay"
+msgstr "จ่าย"
+
 #: src/components/WalletDropdown/DefaultMenu.tsx
 #: src/pages/Vote/styled.tsx
 msgid "Pending"
@@ -1425,6 +1439,10 @@ msgstr "ราคา:"
 #: src/pages/AddLiquidityV2/index.tsx
 msgid "Prices and pool share"
 msgstr "ราคาและส่วนแบ่งสระว่ายน้ำ"
+
+#: src/nft/components/bag/BagFooter.tsx
+msgid "Proceed in wallet"
+msgstr "ดำเนินการในกระเป๋าสตางค์"
 
 #: src/pages/CreateProposal/ProposalEditor.tsx
 msgid "Proposal"
@@ -1665,6 +1683,7 @@ msgid "Some assets are not available through this interface because they may not
 msgstr "สินทรัพย์บางรายการไม่สามารถใช้ได้ผ่านอินเทอร์เฟซนี้ เนื่องจากอาจทำงานได้ไม่ดีกับสัญญาอัจฉริยะ หรือเราไม่สามารถอนุญาตให้ซื้อขายได้ด้วยเหตุผลทางกฎหมาย"
 
 #: src/components/ErrorBoundary/index.tsx
+#: src/nft/components/bag/BagFooter.tsx
 msgid "Something went wrong"
 msgstr "อะไรบางอย่างผิดปกติ"
 
@@ -1751,6 +1770,10 @@ msgstr "การแลกเปลี่ยน"
 #: src/components/swap/ConfirmSwapModal.tsx
 msgid "Swapping {0} {1} for {2} {3}"
 msgstr "สลับ {0} {1} เป็น {2} {3}"
+
+#: src/nft/components/bag/BagFooter.tsx
+msgid "Switch networks"
+msgstr "สลับเครือข่าย"
 
 #: src/components/Tokens/TokenDetails/ChartSection.tsx
 msgid "Symbol not found"
@@ -1989,6 +2012,10 @@ msgstr "ธุรกรรมเสร็จสมบูรณ์ใน"
 #: src/components/TransactionSettings/index.tsx
 msgid "Transaction deadline"
 msgstr "กำหนดเวลาการทำธุรกรรม"
+
+#: src/nft/components/bag/BagFooter.tsx
+msgid "Transaction pending"
+msgstr "ธุรกรรมที่รอดำเนินการ"
 
 #: src/lib/hooks/swap/useSendSwapTransaction.tsx
 #: src/lib/hooks/swap/useSendSwapTransaction.tsx
@@ -2329,6 +2356,10 @@ msgstr "ห่อ"
 #: src/components/AccountDetailsV2/TransactionBody.tsx
 msgid "Wrapping"
 msgstr "ห่อ"
+
+#: src/nft/components/bag/BagFooter.tsx
+msgid "Wrong network"
+msgstr "ผิดเครือข่าย"
 
 #: src/pages/CreateProposal/index.tsx
 msgid "You already have an active or pending proposal"

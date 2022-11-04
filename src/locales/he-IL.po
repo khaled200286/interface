@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: uniswap-interface\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2022-10-27 02:48\n"
+"PO-Revision-Date: 2022-11-04 07:04\n"
 "Last-Translator: \n"
 "Language: he_IL\n"
 "Language-Team: Hebrew\n"
@@ -561,6 +561,10 @@ msgstr "התחבר לארנק כדי להציג את נזילות V2 שלך."
 msgid "Connect to a wallet to view your liquidity."
 msgstr "התחבר לארנק כדי להציג את הנזילות שלך."
 
+#: src/nft/components/bag/BagFooter.tsx
+msgid "Connect wallet"
+msgstr "חבר ארנק"
+
 #: src/components/AccountDetails/index.tsx
 msgid "Connected with"
 msgstr "מחובר עם"
@@ -933,6 +937,11 @@ msgstr "מרכז עזרה"
 #: src/components/Tokens/TokenDetails/About.tsx
 msgid "Hide"
 msgstr "להתחבא"
+
+#: src/components/PositionList/index.tsx
+#: src/components/PositionList/index.tsx
+msgid "Hide closed positions"
+msgstr "הסתר עמדות סגורות"
 
 #: src/pages/Swap/index.tsx
 msgid "High Price Impact"
@@ -1327,6 +1336,11 @@ msgstr "בעלים"
 msgid "Participating pools"
 msgstr "בריכות המשתתפות"
 
+#: src/nft/components/bag/BagFooter.tsx
+#: src/nft/components/bag/BagFooter.tsx
+msgid "Pay"
+msgstr "לְשַׁלֵם"
+
 #: src/components/WalletDropdown/DefaultMenu.tsx
 #: src/pages/Vote/styled.tsx
 msgid "Pending"
@@ -1425,6 +1439,10 @@ msgstr "מחיר:"
 #: src/pages/AddLiquidityV2/index.tsx
 msgid "Prices and pool share"
 msgstr "מחירים ונתח בריכה"
+
+#: src/nft/components/bag/BagFooter.tsx
+msgid "Proceed in wallet"
+msgstr "המשך בארנק"
 
 #: src/pages/CreateProposal/ProposalEditor.tsx
 msgid "Proposal"
@@ -1665,6 +1683,7 @@ msgid "Some assets are not available through this interface because they may not
 msgstr "חלק מהנכסים אינם זמינים דרך ממשק זה מכיוון שהם עשויים שלא לעבוד היטב עם החוזים החכמים או שאיננו יכולים לאפשר מסחר מסיבות משפטיות."
 
 #: src/components/ErrorBoundary/index.tsx
+#: src/nft/components/bag/BagFooter.tsx
 msgid "Something went wrong"
 msgstr "משהו השתבש"
 
@@ -1751,6 +1770,10 @@ msgstr "החלפה"
 #: src/components/swap/ConfirmSwapModal.tsx
 msgid "Swapping {0} {1} for {2} {3}"
 msgstr "החלפת {0} {1} ב- {2} {3}"
+
+#: src/nft/components/bag/BagFooter.tsx
+msgid "Switch networks"
+msgstr "החלף רשתות"
 
 #: src/components/Tokens/TokenDetails/ChartSection.tsx
 msgid "Symbol not found"
@@ -1989,6 +2012,10 @@ msgstr "העסקה הושלמה בשנת"
 #: src/components/TransactionSettings/index.tsx
 msgid "Transaction deadline"
 msgstr "מועד אחרון לעסקה"
+
+#: src/nft/components/bag/BagFooter.tsx
+msgid "Transaction pending"
+msgstr "העסקה בהמתנה"
 
 #: src/lib/hooks/swap/useSendSwapTransaction.tsx
 #: src/lib/hooks/swap/useSendSwapTransaction.tsx
@@ -2329,6 +2356,10 @@ msgstr "עָטוּף"
 #: src/components/AccountDetailsV2/TransactionBody.tsx
 msgid "Wrapping"
 msgstr "לְפָפָה"
+
+#: src/nft/components/bag/BagFooter.tsx
+msgid "Wrong network"
+msgstr "רשת שגויה"
 
 #: src/pages/CreateProposal/index.tsx
 msgid "You already have an active or pending proposal"

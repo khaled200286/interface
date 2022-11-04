@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: uniswap-interface\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2022-10-27 02:48\n"
+"PO-Revision-Date: 2022-11-04 07:04\n"
 "Last-Translator: \n"
 "Language: no_NO\n"
 "Language-Team: Norwegian\n"
@@ -561,6 +561,10 @@ msgstr "Koble til en lommebok for å se V2-likviditeten."
 msgid "Connect to a wallet to view your liquidity."
 msgstr "Koble til en lommebok for å se innholdet ditt."
 
+#: src/nft/components/bag/BagFooter.tsx
+msgid "Connect wallet"
+msgstr "Koble til lommebok"
+
 #: src/components/AccountDetails/index.tsx
 msgid "Connected with"
 msgstr "Tilkoblet til"
@@ -933,6 +937,11 @@ msgstr "Hjelpesenter"
 #: src/components/Tokens/TokenDetails/About.tsx
 msgid "Hide"
 msgstr "Gjemme seg"
+
+#: src/components/PositionList/index.tsx
+#: src/components/PositionList/index.tsx
+msgid "Hide closed positions"
+msgstr "Skjul avsluttede posisjoner"
 
 #: src/pages/Swap/index.tsx
 msgid "High Price Impact"
@@ -1327,6 +1336,11 @@ msgstr "Eier"
 msgid "Participating pools"
 msgstr "Deltagende samlinger"
 
+#: src/nft/components/bag/BagFooter.tsx
+#: src/nft/components/bag/BagFooter.tsx
+msgid "Pay"
+msgstr "Betale"
+
 #: src/components/WalletDropdown/DefaultMenu.tsx
 #: src/pages/Vote/styled.tsx
 msgid "Pending"
@@ -1425,6 +1439,10 @@ msgstr "Pris:"
 #: src/pages/AddLiquidityV2/index.tsx
 msgid "Prices and pool share"
 msgstr "Priser og pottandel"
+
+#: src/nft/components/bag/BagFooter.tsx
+msgid "Proceed in wallet"
+msgstr "Fortsett i lommeboken"
 
 #: src/pages/CreateProposal/ProposalEditor.tsx
 msgid "Proposal"
@@ -1665,6 +1683,7 @@ msgid "Some assets are not available through this interface because they may not
 msgstr "Noen aktiva er ikke tilgjengelige gjennom dette grensesnittet fordi de kanskje ikke fungerer bra med de smarte kontraktene, eller vi ikke tillater handel av juridiske årsaker."
 
 #: src/components/ErrorBoundary/index.tsx
+#: src/nft/components/bag/BagFooter.tsx
 msgid "Something went wrong"
 msgstr "Noe gikk galt"
 
@@ -1751,6 +1770,10 @@ msgstr "Bytting"
 #: src/components/swap/ConfirmSwapModal.tsx
 msgid "Swapping {0} {1} for {2} {3}"
 msgstr "Bytte {0} {1} mot {2} {3}"
+
+#: src/nft/components/bag/BagFooter.tsx
+msgid "Switch networks"
+msgstr "Bytt nettverk"
 
 #: src/components/Tokens/TokenDetails/ChartSection.tsx
 msgid "Symbol not found"
@@ -1989,6 +2012,10 @@ msgstr "Transaksjonen fullført i"
 #: src/components/TransactionSettings/index.tsx
 msgid "Transaction deadline"
 msgstr "Transaksjons frist"
+
+#: src/nft/components/bag/BagFooter.tsx
+msgid "Transaction pending"
+msgstr "Transaksjonen venter"
 
 #: src/lib/hooks/swap/useSendSwapTransaction.tsx
 #: src/lib/hooks/swap/useSendSwapTransaction.tsx
@@ -2329,6 +2356,10 @@ msgstr "Pakket inn"
 #: src/components/AccountDetailsV2/TransactionBody.tsx
 msgid "Wrapping"
 msgstr "Innpakning"
+
+#: src/nft/components/bag/BagFooter.tsx
+msgid "Wrong network"
+msgstr "Feil nettverk"
 
 #: src/pages/CreateProposal/index.tsx
 msgid "You already have an active or pending proposal"

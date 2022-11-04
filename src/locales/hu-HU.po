@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: uniswap-interface\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2022-10-27 02:48\n"
+"PO-Revision-Date: 2022-11-04 07:04\n"
 "Last-Translator: \n"
 "Language: hu_HU\n"
 "Language-Team: Hungarian\n"
@@ -561,6 +561,10 @@ msgstr "Csatlakozzon egy pénztárcához a V2 likviditás megtekintéséhez."
 msgid "Connect to a wallet to view your liquidity."
 msgstr "Csatlakozzon egy pénztárcához a likviditás megtekintéséhez."
 
+#: src/nft/components/bag/BagFooter.tsx
+msgid "Connect wallet"
+msgstr "Pénztárca csatlakoztatása"
+
 #: src/components/AccountDetails/index.tsx
 msgid "Connected with"
 msgstr "Kapcsolatban"
@@ -934,6 +938,11 @@ msgstr "Segítség Központ"
 #: src/components/Tokens/TokenDetails/About.tsx
 msgid "Hide"
 msgstr "Elrejt"
+
+#: src/components/PositionList/index.tsx
+#: src/components/PositionList/index.tsx
+msgid "Hide closed positions"
+msgstr "Zárt pozíciók elrejtése"
 
 #: src/pages/Swap/index.tsx
 msgid "High Price Impact"
@@ -1328,6 +1337,11 @@ msgstr "Tulajdonos"
 msgid "Participating pools"
 msgstr "Résztvevő poolok"
 
+#: src/nft/components/bag/BagFooter.tsx
+#: src/nft/components/bag/BagFooter.tsx
+msgid "Pay"
+msgstr "Fizetés"
+
 #: src/components/WalletDropdown/DefaultMenu.tsx
 #: src/pages/Vote/styled.tsx
 msgid "Pending"
@@ -1426,6 +1440,10 @@ msgstr "Ár:"
 #: src/pages/AddLiquidityV2/index.tsx
 msgid "Prices and pool share"
 msgstr "Árak és pool-részesedés"
+
+#: src/nft/components/bag/BagFooter.tsx
+msgid "Proceed in wallet"
+msgstr "Tovább a pénztárcában"
 
 #: src/pages/CreateProposal/ProposalEditor.tsx
 msgid "Proposal"
@@ -1666,6 +1684,7 @@ msgid "Some assets are not available through this interface because they may not
 msgstr "Egyes eszközök nem érhetők el ezen a felületen keresztül, mert előfordulhat, hogy nem működnek jól az okosszerződésekkel, vagy jogi okokból nem tudjuk engedélyezni a kereskedést."
 
 #: src/components/ErrorBoundary/index.tsx
+#: src/nft/components/bag/BagFooter.tsx
 msgid "Something went wrong"
 msgstr "Valami elromlott"
 
@@ -1752,6 +1771,10 @@ msgstr "Csere"
 #: src/components/swap/ConfirmSwapModal.tsx
 msgid "Swapping {0} {1} for {2} {3}"
 msgstr "{0} {1} cseréje a következőre {2} {3}"
+
+#: src/nft/components/bag/BagFooter.tsx
+msgid "Switch networks"
+msgstr "Váltson hálózatot"
 
 #: src/components/Tokens/TokenDetails/ChartSection.tsx
 msgid "Symbol not found"
@@ -1990,6 +2013,10 @@ msgstr "A tranzakció befejeződött"
 #: src/components/TransactionSettings/index.tsx
 msgid "Transaction deadline"
 msgstr "Tranzakció határideje"
+
+#: src/nft/components/bag/BagFooter.tsx
+msgid "Transaction pending"
+msgstr "Tranzakció függőben"
 
 #: src/lib/hooks/swap/useSendSwapTransaction.tsx
 #: src/lib/hooks/swap/useSendSwapTransaction.tsx
@@ -2330,6 +2357,10 @@ msgstr "Csomagolt"
 #: src/components/AccountDetailsV2/TransactionBody.tsx
 msgid "Wrapping"
 msgstr "Csomagolás"
+
+#: src/nft/components/bag/BagFooter.tsx
+msgid "Wrong network"
+msgstr "Hibás hálózat"
 
 #: src/pages/CreateProposal/index.tsx
 msgid "You already have an active or pending proposal"
